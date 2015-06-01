@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Portafolio</string>
+    <string name="hello_world">Hola Mundo</string>
+    <string name="action_settings">Configuracion</string>
+    <string name="item_one">Controles</string>
+    <string name="item_two">Animaciones</string>
+    <string name="button_example">Botones</string>
+    <string name="text_view_example">Textos</string>
+    <string name="edit_text_example">Textos Editables</string>
+    <string name="list_view_example" translatable="false">ListView</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="title_activity_controls">Controles</string>
+    <string name="first_object">Primer Elemento</string>
+    <string name="tenth_object">Decimo Elemento</string>
+    <string name="ninth_object">Noveno Elemento</string>
+    <string name="eighth_object">Octavo Elemento</string>
+    <string name="seventh_object">Septimo Elemento</string>
+    <string name="sixth_object">Sexto Elemento</string>
+    <string name="fifth_object">Quinto Elemento</string>
+    <string name="fourth_object">Cuarto Elemento</string>
+    <string name="third_object">Tercer Elemento</string>
+    <string name="second_object">Segundo Elemento</string>
+    <string name="first_rdb">Primer Radio Button</string>
+    <string name="second_rdb">Segundo Radio Button</string>
+    <string name="third_rdb">Tercer Radio Button</string>
+    <string name="fourth_rdb">Cuarto Radio Button</string>
+    <string name="check_button">Revisar</string>
+    <string name="radio_button_example" translatable="false">Radio Button</string>
+    <string name="chb_fourth">Cuarto CheckBox</string>
+    <string name="chb_third">Tercer CheckBox</string>
+    <string name="chb_second">Segundo CheckBox</string>
+    <string name="chb_first">Primer CheckBox</string>
+    <string name="check_box_example" translatable="false">CheckBox</string>
+    <string name="states">Revisar Estados</string>
+    <string name="text_on">Encendido</string>
+    <string name="text_off">Apagado</string>
+    <string name="checked">Seleccionado</string>
+    <string name="not_checked">No Seleccionado</string>
+    <string name="images_example">Imagenes</string>
+    <string name="auto_complete_example" translatable="false">Auto Complete</string>
+    <string name="nothing_selected">Nada Seleccionado</string>
+
+    <string-array name="list_of_countries">
+        <item>USA</item>
+        <item>Uk</item>
+        <item>Canada</item>
+        <item>Australia</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>China</item>
+        <item>Japan</item>
+        <item>Spain</item>
+        <item>Peru</item>
+        <item>Argentina</item>
+        <item>Chile</item>
+        <item>Brasil</item>
+        <item>Paraguay</item>
+    </string-array>
+
+    <string name="progress_start">Progreso: 0</string>
+    <string name="progress">Progreso:</string>
+    <string name="progress_and_seek_bar">Progress y Seek Bar</string>
+    <string name="forward">Adelante</string>
+    <string name="go">Ir</string>
+    <string name="back">Atras</string>
+    <string name="web_view_example" translatable="false">Web View</string>
+    <string name="title_activity_animation">AnimationActivity</string>
+    <string name="halfAnim">Media Animacion</string>
+    <string name="completeAnim">Animacion Completa</string>
+    <string name="rotate_left">Girar Izquierda</string>
+    <string name="rotate_rigth">Girar Derecha</string>
+    <string name="rotate_anim_example">Rotacion</string>
+    <string name="fade_anim_example">Desvanecer</string>
+    <string name="move_top">Arriba</string>
+    <string name="move_bottom">Abajo</string>
+    <string name="move_left">Izquierda</string>
+    <string name="move_right">Derecha</string>
+    <string name="translate_anim_example">Translacion</string>
+    <string name="scale_in">Escalar</string>
+    <string name="scale_out">Reducir</string>
+    <string name="scale_anim_example">Escalar</string>
+    <string name="home">Pantalla Principal</string>
+    <string name="data_base">Base de Datos SQLite</string>
+    <string name="transition">Transiciones</string>
+    <string name="multimedia" translatable="false">Multimedia</string>
+    <string name="dialog">Dialogos</string>
+    <string name="normal_dialog">Normal</string>
+    <string name="custom_dialog">Customizado</string>
+    <string name="transparent_background">Fondo Transparente</string>
+    <string name="zoom_transition">Transicion Zoom</string>
+    <string name="translate_transicion">Transicion Movimiento</string>
+    <string name="title_normal_dialog">Dialogo Normal</string>
+    <string name="mesagge_normal_dialog">Este es un dialogo sin personalizar</string>
+    <string name="accept">Aceptar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="neutral">Neutro</string>
+    <string name="open_camera_picture">Abrir Camara Fotos</string>
+    <string name="take_picture">Tomar una Foto</string>
+    <string name="open_picture">Abrir Fotos</string>
+    <string name="open_camera_video">Abrir Camara Video</string>
+    <string name="take_video">Grabar Video</string>
+    <string name="open_video">Abrir Video</string>
+    <string name="take_audio">Grabar Audio</string>
+    <string name="open_audio">Abrir Audio</string>
+    <string name="example_custom_camera">ejemplo_camara</string>
+    <string name="succesfull">Exito</string>
+    <string name="picture_saved">Foto Almacenada en carpeta ejemplo_camara</string>
+    <string name="picture_fail">Foto no Almacenada</string>
+    <string name="start_record_audio">Grabar</string>
+    <string name="stop">Parar</string>
+    <string name="play_audio">Escuchar</string>
+    <string name="search_audio">Buscar Audio</string>
+    <string name="open_pdf">Abrir PDF</string>
+    <string name="open_office_file">Abrir Documento Office</string>
+    <string name="insert_sqlite">Insertar SQLite</string>
+    <string name="delete_sqlite">Eliminar SQLite</string>
+    <string name="retrieve_sqlite">Obtener SQLite</string>
+    <string name="list_sqlite">Listar SQLite</string>
+    <string name="update_sqlite">Acutalizar SQLite</string>
+    <string name="SQLiteActivity" translatable="false">SQLite</string>
+    <string name="btn_save">Guardar</string>
+    <string name="pet_race">Raza</string>
+    <string name="pet_type">Tipo Mascota</string>
+    <string name="pet_owner">Dueño Mascota</string>
+    <string name="pet_name">Nombre Mascota</string>
+    <string name="dog">Perro</string>
+    <string name="cat">Gato</string>
+    <string name="select_type">Seleccione Tipo Mascota</string>
+    <string name="insert_fail">Fallo en la insercion</string>
+    <string name="insert_ok">Columna Insertada</string>
+    <string name="pet_code">Codigo Mascota</string>
+    <string name="id_name_pet">Id-Nombre</string>
+    <string name="select_codeName">Seleccione Mascota</string>
+    <string name="update_ok">Datos Actualizados</string>
+    <string name="btn_delete">Eliminar</string>
+    <string name="update_fail">Fallo en la Actualización</string>
+    <string name="delete_ok">Registro Eliminado</string>
+    <string name="delete_fail">Error al Eliminar</string>
+    <string name="rest_connections">Conecciones Rest</string>
+    <string name="xml_json">XML y JSON serializaciones</string>
+    <string name="maps">Mapas</string>
+    <string name="sensor">Sensores</string>
+    <string name="json_serialization">Serializacion JSON</string>
+    <string name="xml_serialization">Serializacion XML</string>
+    <string name="json_deserializacion">Deserializar JSON</string>
+    <string name="xml_deserizalizacion">Deserealizar XML</string>
+    <string name="serialize">Serializar</string>
+    <string name="get_request">Consulta GET</string>
+    <string name="post_request">Consulta POST</string>
+    <string name="upload_image">Subir Imagen</string>
+    <string name="map_marker">Crear Marker</string>
+    <string name="get_distance">Obtener Distancia</string>
+    <string name="customMarker">Marcador Personalizado</string>
+    <string name="touch_to_add_marker">Toca el mapa para crear Markers</string>
+    <string name="custom_marker">Marker Personalizado</string>
+    <string name="search_address">Buscar Dirección</string>
+    <string name="button_search">Buscar</string>
+    <string name="searching">Buscando</string>
+    <string name="searching_address">Buscando la Dirección</string>
+    <string name="get_address">Obtener Dirección</string>
+    <string name="touch_to_send">Toque el objeto que quiera enviar</string>
+    <string name="object_create">Para agregar mas items dirigirse a la seccion de SQLite y inserte más registros</string>
+    <string name="making_request">Creando Request</string>
+    <string name="sending_information">Enviando Informacion</string>
+    <string name="title_response">Respuesta</string>
+    <string name="page_to_check">Por favor, dirigase a "http://www.mobileapp.cl/portafolio" e ingrese el id para revisar el registro enviado</string>
+    <string name="inserted_id">Id insertado:</string>
+    <string name="error">Error</string>
+    <string name="search_image">Buscar Imagen</string>
+    <string name="RA">Realidad Aumentada</string>
+    <string name="custom_view">Vistas Personalizadas</string>
+    <string name="uploading_image">Subiendo Imagen</string>
+    <string name="error_image">La imagen es muy grande</string>
+    <string name="calendar">Calendario Customizable</string>
+    <string name="alphabetical_order">Orden Alfabetico</string>
+    <string name="custom_graph">Custom Graficos</string>
+    <string name="days_example">Ejemplo Dias (Miles)</string>
+    <string name="drawer_open">Abrir Panel de Navegación</string>
+    <string name="drawer_close">Cerrar Panel de Navegación</string>
+    <string name="network_problem">Problema de Conección</string>
+    <string name="internet_not_connected">Debe estar conectado a internet para ver estos item</string>
+    <string name="accelerometer">Acelerometro</string>
+    <string name="x_axis">Eje X</string>
+    <string name="y_axis">Eje Y</string>
+    <string name="z_axis">Eje Z</string>
+    <string name="accelerometer_not_exist">El Dispositivo no posee Acelerometro</string>
+    <string name="sensor_problem">Problema Con Sensor</string>
+    <string name="light">Sensor de Luz</string>
+    <string name="my_position">Mi Posicion</string>
+    <string name="gps_not_turn_on">GPS Apagado, Por Favor Enciendalo Para iniciar</string>
+    <string name="value_light_sensor">Valor Sensor de Luz: </string>
+    <string name="light_not_exist">Sensor de Luz No Existe</string>
+    <string name="widget" translatable="false">Widget</string>
+    <string name="open_widget">Por favor dirigase a la seccion de Widgets en el menu principal y agreguelo al escritorio de la tablet para visualizarlo</string>
+
+</resources>

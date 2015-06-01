@@ -1,0 +1,9 @@
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+  android:minWidth="72dp"
+    android:minHeight="72dp"
+    android:updatePeriodMillis="10000"
+    android:previewImage="@drawable/img_home_est01_widget"
+    android:initialLayout="@layout/appwidget"
+    android:resizeMode="vertical|horizontal"
+    android:autoAdvanceViewId="@id/stack">
+</appwidget-provider>

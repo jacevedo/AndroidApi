@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="crossline.cl.fragment.controls.ImagesFragment">
+
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/btnImageButton"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/image2"
+        android:scaleType="fitXY"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgExample"
+        android:layout_below="@+id/btnImageButton"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/image1"
+        android:tag="image1"/>
+
+</RelativeLayout>

@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".MyActivity">
+
+    <view
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="crossline.cl.views.ChartView"
+        android:id="@+id/mChart"
+        android:layout_toLeftOf="@+id/btnVertical"
+        android:layout_toStartOf="@+id/btnVertical" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vertical"
+        android:id="@+id/btnVertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="90"
+        android:id="@+id/btn90"
+        android:layout_below="@+id/btnVertical"
+        android:layout_alignLeft="@+id/btnVertical"
+        android:layout_alignStart="@+id/btnVertical"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="240"
+        android:id="@+id/btn240"
+        android:layout_below="@+id/btn90"
+        android:layout_alignLeft="@+id/btn90"
+        android:layout_alignStart="@+id/btn90"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Puntos"
+        android:id="@+id/btnPuntos"
+        android:layout_below="@+id/btn240"
+        android:layout_alignLeft="@+id/btn240"
+        android:layout_alignStart="@+id/btn240"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Barras"
+        android:id="@+id/btnBarras"
+        android:layout_below="@+id/btnPuntos"
+        android:layout_alignLeft="@+id/btnPuntos"
+        android:layout_alignStart="@+id/btnPuntos"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Circula"
+        android:id="@+id/btnCirular"
+        android:layout_below="@+id/btnBarras"
+        android:layout_toRightOf="@+id/mChart"
+        android:layout_toEndOf="@+id/mChart"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"  />
+</RelativeLayout>
